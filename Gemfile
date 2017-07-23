@@ -5,6 +5,7 @@ gem 'rails', git: 'https://github.com/rails/rails.git'
 gem 'arel', github: "rails/arel"
 gem 'activestorage', github: 'rails/activestorage'
 gem 'mini_magick'
+gem 'google-cloud-storage'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
