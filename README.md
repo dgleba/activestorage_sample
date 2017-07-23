@@ -8,3 +8,5 @@ There are different branches demonstrating different features of the code:
 * The `aws` branch shows how to use Active Storage with Amazon Web Services
 * The `gcs` branch shows how to use Active Storage with Google Cloud Storage
 * The `mirror` branch shows how to use Active Storage with multiple storage backends at the same time
+
+NOTE: To use the `aws` branch, you will need to edit config/storage_services.yml to include your own AWS information.
