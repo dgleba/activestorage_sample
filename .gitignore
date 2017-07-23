@@ -23,3 +23,7 @@
 
 /public/assets
 .byebug_history
+
+# Ignore local Active Storage files and Google Cloud Services credentials file
+/storage/*
+/config/gcs.json
