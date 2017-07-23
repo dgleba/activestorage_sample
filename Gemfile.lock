@@ -5,17 +5,8 @@ GIT
     arel (8.0.0)
 
 GIT
-  remote: https://github.com/rails/web-console.git
-  revision: ce985ebaf97a2c0754553153f05b3819f75786b7
-  specs:
-    web-console (3.5.1)
-      actionview (>= 5.0)
-      activemodel (>= 5.0)
-      bindex (>= 0.4.0)
-      railties (>= 5.0)
-
-PATH
-  remote: /Users/mike/.rvm/gems/ruby-2.4.1@activestorage_sample/bundler/gems/rails-8ee9ace27b79
+  remote: https://github.com/rails/rails.git
+  revision: cf36d1bf2fad506ce5db49be62b2c74577f8e61b
   specs:
     actioncable (5.2.0.alpha)
       actionpack (= 5.2.0.alpha)
@@ -72,6 +63,16 @@ PATH
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
+
+GIT
+  remote: https://github.com/rails/web-console.git
+  revision: ce985ebaf97a2c0754553153f05b3819f75786b7
+  specs:
+    web-console (3.5.1)
+      actionview (>= 5.0)
+      activemodel (>= 5.0)
+      bindex (>= 0.4.0)
+      railties (>= 5.0)
 
 GEM
   remote: https://rubygems.org/

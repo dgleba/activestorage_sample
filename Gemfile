@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails', path: "/Users/mike/.rvm/gems/ruby-2.4.1@activestorage_sample/bundler/gems/rails-8ee9ace27b79"
+gem 'rails', git: 'https://github.com/rails/rails.git'
 gem 'arel', github: "rails/arel"
 
 # Use sqlite3 as the database for Active Record
