@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/activestorage.git
-  revision: 5ada4314c3272b1d6fc6bd15b2c0a9285c1227aa
+  revision: c285c6824dc186e00040b7283877fea917050275
   specs:
     activestorage (0.1)
       rails (>= 5.2.0.alpha)
@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/rails.git
-  revision: cf36d1bf2fad506ce5db49be62b2c74577f8e61b
+  revision: a532eb448f8ead1640ef3d886eb8e02fc46583e6
   specs:
     actioncable (5.2.0.alpha)
       actionpack (= 5.2.0.alpha)
