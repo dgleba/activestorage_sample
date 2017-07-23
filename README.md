@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo demonstrates the use of [Active Storage](https://github.com/rails/activestorage) in Rails 5.2.
 
-Things you may want to cover:
+There are different branches demonstrating different features of the code:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* The `aws` branch shows how to use Active Storage with Amazon Web Services
+* The `gcs` branch shows how to use Active Storage with Google Cloud Storage
+* The `mirror` branch shows how to use Active Storage with multiple storage backends at the same time
