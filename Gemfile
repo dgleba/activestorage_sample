@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rails', path: "/Users/mike/.rvm/gems/ruby-2.4.1@activestorage_sample/bundler/gems/rails-8ee9ace27b79"
 gem 'arel', github: "rails/arel"
+gem 'activestorage', github: 'rails/activestorage'
+gem 'mini_magick'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
