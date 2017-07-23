@@ -23,3 +23,6 @@
 
 /public/assets
 .byebug_history
+
+# Ignore local Active Storage files
+/storage/*
