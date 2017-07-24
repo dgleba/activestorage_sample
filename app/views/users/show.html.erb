@@ -6,14 +6,14 @@
 </p>
 
 <p>
-  <%= image_tag(@user.avatar.url) %>
+  <%= image_tag(@user.avatar.service_url(expires_in: 5.minutes)) %>
 <p>
 
 <p>
   <strong>Documents:</strong>
   <ul>
     <% @user.documents.each do |document| %>
-      <li><%= link_to document.blob.filename, document.url %></li>
+      <li><%= link_to document.blob.filename, document.service_url(expires_in: 5.minutes) %></li>
     <% end %>
   </ul>
 <p>
