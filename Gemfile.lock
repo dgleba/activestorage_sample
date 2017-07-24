@@ -1,19 +1,27 @@
 GIT
   remote: https://github.com/rails/activestorage.git
+<<<<<<< HEAD
   revision: 5ada4314c3272b1d6fc6bd15b2c0a9285c1227aa
+=======
+  revision: 3eb8c89c0410fac34aefc8b89b8c6b5901c39415
+>>>>>>> 6a756cf... Update Rails & Active Storage
   specs:
     activestorage (0.1)
       rails (>= 5.2.0.alpha)
 
 GIT
   remote: https://github.com/rails/arel.git
-  revision: 67a51c62f4e19390cd8eb408596ca48bb0806362
+  revision: bfb770dbcc8432b8d4c1824be0fb2b1ab1ce5d68
   specs:
     arel (8.0.0)
 
 GIT
   remote: https://github.com/rails/rails.git
+<<<<<<< HEAD
   revision: cf36d1bf2fad506ce5db49be62b2c74577f8e61b
+=======
+  revision: 998ec40f9e69616fbc813aab072711582b7c155c
+>>>>>>> 6a756cf... Update Rails & Active Storage
   specs:
     actioncable (5.2.0.alpha)
       actionpack (= 5.2.0.alpha)
