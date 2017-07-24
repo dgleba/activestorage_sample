@@ -14,13 +14,12 @@ ActiveRecord::Schema.define(version: 2017_07_23_121610) do
 
   create_table "active_storage_attachments", force: :cascade do |t|
     t.string "name"
-    t.string "record_gid"
+    t.string "record_type"
+    t.integer "record_id"
     t.integer "blob_id"
     t.datetime "created_at"
     t.index ["blob_id"], name: "index_active_storage_attachments_on_blob_id"
-    t.index ["record_gid", "blob_id"], name: "index_active_storage_attachments_on_record_gid_and_blob_id", unique: true
-    t.index ["record_gid", "name"], name: "index_active_storage_attachments_on_record_gid_and_name"
-    t.index ["record_gid"], name: "index_active_storage_attachments_on_record_gid"
+    t.index ["record_type", "record_id", "name", "blob_id"], name: "index_active_storage_attachments_uniqueness", unique: true
   end
 
   create_table "active_storage_blobs", force: :cascade do |t|
