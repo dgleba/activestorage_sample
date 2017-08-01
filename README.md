@@ -27,6 +27,7 @@ That said, I'll try to keep [my article](https://afreshcup.com/home/2017/07/23/a
 - 31 July 2017
   - Added Microsoft Azure sample
   - Added direct upload sample
+  - Switched to using `url_for(document.url)` in show. See https://github.com/rails/activestorage/commit/d0e90b4a9dc1accd4f1044fde0dd9a347cd0afcf and future plans at https://github.com/rails/activestorage/issues/77
 - 24 July 2017
   - Updated database schema. If you used an earlier version of the samples, you'll need to drop & recreate the database.
   - Replaced `.url` with `.service_url`
