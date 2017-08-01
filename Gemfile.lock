@@ -1,4 +1,13 @@
 GIT
+  remote: https://github.com/dixpac/azure-ruby-asm-core.git
+  revision: 4403389747f44a94b73e7a7522d1ea11f8b1a266
+  specs:
+    azure-core (0.1.8)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.10)
+      nokogiri (~> 1.7)
+
+GIT
   remote: https://github.com/rails/activestorage.git
   revision: 3f4a7218a4a4923a0e7ce1b2eb0d2888ce30da58
   specs:
@@ -86,6 +95,11 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    azure-storage (0.11.4.preview)
+      azure-core (~> 0.1)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.10)
+      nokogiri (~> 1.6)
     bindex (0.5.0)
     bootsnap (1.1.2)
       msgpack (~> 1.0)
@@ -110,6 +124,10 @@ GEM
     concurrent-ruby (1.0.5)
     erubi (1.6.1)
     execjs (2.7.0)
+    faraday (0.12.2)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.12.0)
+      faraday (>= 0.7.4, < 1.0)
     ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
@@ -134,6 +152,7 @@ GEM
     minitest (5.10.3)
     msgpack (1.1.0)
     multi_json (1.12.1)
+    multipart-post (2.0.0)
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
@@ -197,6 +216,8 @@ PLATFORMS
 DEPENDENCIES
   activestorage!
   arel!
+  azure-core!
+  azure-storage
   bootsnap (>= 1.1.0)
   byebug
   capybara (~> 2.13)

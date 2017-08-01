@@ -5,6 +5,8 @@ gem 'rails', git: 'https://github.com/rails/rails.git'
 gem 'arel', github: "rails/arel"
 gem 'activestorage', github: 'rails/activestorage'
 gem 'mini_magick'
+gem 'azure-core', git: "https://github.com/dixpac/azure-ruby-asm-core.git"
+gem 'azure-storage', require: false
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
