@@ -25,7 +25,7 @@ local:
 #   service: Azure
 #   path: your_azure_storage_path
 #   storage_account_name: your_account_name
-#   storage_access_key: <%= Rails.application.secrets.azure[:secret_access_key] %>
+#   storage_access_key: <%= Rails.application.secrets.dig(:azure, :secret_access_key) %>
 #   container: your_container_name
 
 # mirror:
