@@ -23,7 +23,7 @@ local:
 
 microsoft:
   service: Azure
-  path: https://**********.blob.core.windows.net/
+  path: https://**********.blob.core.windows.net
   storage_account_name: **********
   storage_access_key: ******************************************
   container: *************
