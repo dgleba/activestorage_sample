@@ -1,12 +1,13 @@
 GIT
   remote: https://github.com/rails/arel.git
-  revision: 67a51c62f4e19390cd8eb408596ca48bb0806362
+  revision: 62dfe907f38d7845b8db2cc594217dc5e139dc14
   specs:
-    arel (8.0.0)
+    arel (9.0.0.alpha)
 
 GIT
   remote: https://github.com/rails/rails.git
-  revision: cf36d1bf2fad506ce5db49be62b2c74577f8e61b
+  revision: 5aeac576dccaacab12a0420ed795cb4a437fec4c
+  branch: active-storage-import
   specs:
     actioncable (5.2.0.alpha)
       actionpack (= 5.2.0.alpha)
@@ -22,7 +23,7 @@ GIT
       actionview (= 5.2.0.alpha)
       activesupport (= 5.2.0.alpha)
       rack (~> 2.0)
-      rack-test (~> 0.6.3)
+      rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.2)
     actionview (5.2.0.alpha)
@@ -39,7 +40,10 @@ GIT
     activerecord (5.2.0.alpha)
       activemodel (= 5.2.0.alpha)
       activesupport (= 5.2.0.alpha)
-      arel (~> 8.0)
+      arel (= 9.0.0.alpha)
+    activestorage (5.2.0.alpha)
+      actionpack (= 5.2.0.alpha)
+      activerecord (= 5.2.0.alpha)
     activesupport (5.2.0.alpha)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
@@ -53,6 +57,7 @@ GIT
       activejob (= 5.2.0.alpha)
       activemodel (= 5.2.0.alpha)
       activerecord (= 5.2.0.alpha)
+      activestorage (= 5.2.0.alpha)
       activesupport (= 5.2.0.alpha)
       bundler (>= 1.3.0)
       railties (= 5.2.0.alpha)
@@ -132,8 +137,8 @@ GEM
     public_suffix (2.0.5)
     puma (3.9.1)
     rack (2.0.3)
-    rack-test (0.6.3)
-      rack (>= 1.0)
+    rack-test (0.7.0)
+      rack (>= 1.0, < 3)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
