@@ -13,7 +13,7 @@
   <strong>Documents:</strong>
   <ul>
     <% @user.documents.each do |document| %>
-      <li><%= link_to document.blob.filename, document.service_url(expires_in: 5.minutes) %></li>
+      <li><%= link_to document.blob.filename, url_for(document) %></li>
     <% end %>
   </ul>
 <p>
