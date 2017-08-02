@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/rails/activestorage.git
-  revision: 3f4a7218a4a4923a0e7ce1b2eb0d2888ce30da58
-  specs:
-    activestorage (0.1)
-      rails (>= 5.2.0.alpha)
-
-GIT
   remote: https://github.com/rails/arel.git
   revision: 62dfe907f38d7845b8db2cc594217dc5e139dc14
   specs:
@@ -134,7 +127,6 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_magick (4.8.0)
     mini_portile2 (2.2.0)
     minitest (5.10.3)
     msgpack (1.1.0)
@@ -200,7 +192,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activestorage!
   arel!
   bootsnap (>= 1.1.0)
   byebug
@@ -208,7 +199,6 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
-  mini_magick
   puma (~> 3.7)
   rails!
   sass-rails (~> 5.0)
