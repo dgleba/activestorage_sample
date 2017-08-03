@@ -3,9 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rails', git: 'https://github.com/rails/rails.git', branch: 'active-storage-import'
 gem 'arel', github: "rails/arel"
-gem 'azure-core', git: "https://github.com/dixpac/azure-ruby-asm-core.git"
-gem 'azure-storage', require: false
-
+gem 'azure-storage'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

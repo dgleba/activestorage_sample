@@ -1,13 +1,4 @@
 GIT
-  remote: https://github.com/dixpac/azure-ruby-asm-core.git
-  revision: 4403389747f44a94b73e7a7522d1ea11f8b1a266
-  specs:
-    azure-core (0.1.8)
-      faraday (~> 0.9)
-      faraday_middleware (~> 0.10)
-      nokogiri (~> 1.7)
-
-GIT
   remote: https://github.com/rails/arel.git
   revision: 62dfe907f38d7845b8db2cc594217dc5e139dc14
   specs:
@@ -93,6 +84,10 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
+    azure-core (0.1.9)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.10)
+      nokogiri (~> 1.7)
     azure-storage (0.11.4.preview)
       azure-core (~> 0.1)
       faraday (~> 0.9)
@@ -212,7 +207,6 @@ PLATFORMS
 
 DEPENDENCIES
   arel!
-  azure-core!
   azure-storage
   bootsnap (>= 1.1.0)
   byebug
