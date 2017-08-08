@@ -22,7 +22,7 @@ local:
 #   bucket: your_own_bucket
 
 microsoft:
-  service: Azure
+  service: AzureStorage
   path: https://**********.blob.core.windows.net
   storage_account_name: **********
   storage_access_key: ******************************************
