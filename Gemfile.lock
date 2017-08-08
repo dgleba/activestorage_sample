@@ -6,8 +6,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/rails.git
-  revision: 5aeac576dccaacab12a0420ed795cb4a437fec4c
-  branch: active-storage-import
+  revision: 6089b3140dedc087d80d67fe4c60f280db9e8d6e
   specs:
     actioncable (5.2.0.alpha)
       actionpack (= 5.2.0.alpha)
