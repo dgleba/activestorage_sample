@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails', git: 'https://github.com/rails/rails.git', branch: 'active-storage-import'
+gem 'rails', git: 'https://github.com/rails/rails.git'
 gem 'arel', github: "rails/arel"
 gem 'google-cloud-storage'
 

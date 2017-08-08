@@ -16,12 +16,14 @@ NOTE: To use the `gcs` branch, you will need to edit config/storage_services.yml
 
 ## A Note On Code Stability
 
-It isn't. Active Storage has been merged to the main Rails project now, but it's not yet merged to master. Expect further changes and improvements, as well as potentially broken things.
+It's getting there. Active Storage has been merged to the main Rails project master now. Expect further changes and improvements, as well as potentially broken things.
 
 That said, I'll try to keep [my article](https://afreshcup.com/home/2017/07/23/activestorage-samples) and these associated samples up-to-date. No promises though.</p>
 
 ## Change History
 
+- 8 August 2017
+  - Switch to master branch of Rails
 - 2 August 2017
   - Switch to Rails with merged Active Storage, remove separate Active Storage gem.
   - Added Microsoft Azure sample
