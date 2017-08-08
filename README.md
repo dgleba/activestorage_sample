@@ -22,6 +22,7 @@ That said, I'll try to keep [my article](https://afreshcup.com/home/2017/07/23/a
 
 - 8 August 2017
   - Switch to master branch of Rails
+  - Update name of Azure service
 - 2 August 2017
   - Switch to Rails with merged Active Storage, remove separate Active Storage gem.
   - Added Microsoft Azure sample
